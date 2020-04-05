@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Contains latest_music.module
+ */
+//use Drupal\Component\Utility\Html;
+//use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_theme()
+ */
+function latest_music_theme($existing, $type, $theme, $path) {
+  return[
+    'latest_music_block' => [
+      'variables' => ['data' => NULL, 'nodes' => NULL],
+    ],
+  ];
+}

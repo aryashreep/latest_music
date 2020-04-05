@@ -1,0 +1,15 @@
+{
+    "name": "aryashreep/latest_music",
+    "type": "drupal-custom-module",
+    "description": "Drupal 8 module for latest music display.",
+    "homepage": "https://github.com/aryashreep/latest_music",
+    "license": "GPL-2.0+",
+    "authors": [
+      {
+        "name": "Aryashree Pritikrishna (aryashreep)",
+        "homepage": "https://www.drupal.org/u/aryashreep",
+        "role": "Maintainer"
+      }
+    ],
+    "require": {}
+}

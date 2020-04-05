@@ -1,0 +1,8 @@
+name: Latest Music Module
+dependencies:
+  - node
+  - block
+type: module
+description: module for common functionality
+core: 8.x
+package: Custom
