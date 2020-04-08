@@ -27,8 +27,6 @@ class MusicCustomBlock extends BlockBase {
     return [
       '#theme' => 'latest_music_block',
       '#nodes' => $nodes,
-      //'#cache' => array('max-age' => 0),
-	  //'#cache' => ['contexts' => ['url.path', 'url.query_args']]
     ];
   }
 }

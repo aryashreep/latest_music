@@ -1,0 +1,6 @@
+latest_music.newpage:
+  title: 'Music'
+  description: 'Link to the Music listing page'
+  route_name: latest_music.content
+  weight: 10
+  menu_name: main
