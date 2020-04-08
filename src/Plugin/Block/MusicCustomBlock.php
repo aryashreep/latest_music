@@ -8,7 +8,7 @@ use Drupal\node\Entity\Node;
 /**
  *
  * @Block(
- *  id = "albums_custom_block",
+ *  id = "music_custom_block",
  *  admin_label = @Translation("Music Block"),
  * )
  */
@@ -18,10 +18,11 @@ class MusicCustomBlock extends BlockBase {
    * {@inheritdoc}
    */
   public function build() {    
-    // Getting all Albums content.
+    // Getting all Music content.
     $entityQuery = \Drupal::entityQuery('node');
     $nids = $entityQuery->condition('type', 'music')
-      ->condition('status', 1)    
+      ->condition('status', 1)
+      ->range(0, 5) 
       ->execute();
     $nodes = Node::loadMultiple($nids);
     return [

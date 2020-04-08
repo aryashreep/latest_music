@@ -1,4 +1,0 @@
-services:
-  latest_music.custom_services:
-    class: Drupal\latest_music\Services\CustomService
-    arguments: ['@current_user']

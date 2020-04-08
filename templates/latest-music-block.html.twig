@@ -1,4 +1,5 @@
+<ul>
 {% for id,node in nodes %}
-    <strong>{{ node.title.value }}</strong>    
-    <br/>
+    <li><a href="{{path('entity.node.canonical', {'node': node.id})}}">{{ node.title.value }}</a></li>
 {% endfor %}
+</ul>
